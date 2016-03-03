@@ -9,12 +9,19 @@
 1. install cpulimit
 
    in root state
-
+   ubuntu/debian:
 ```
 sudo su
 apt-get install cpulimit
 
 ```
+   centos/redhat:
+```
+sudo su
+apt-get install cpulimit
+
+```
+
 2. use cpulimit to limit the pid or programm
 
    in user state
