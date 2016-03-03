@@ -4,11 +4,11 @@
 
 ####. step
 
-use the commond of linux:
+   use the commond of linux:
 
 1. install cpulimit
 
-in root state
+   in root state
 
 ```
 sudo su
@@ -17,13 +17,13 @@ apt-get install cpulimit
 ```
 2. use cpulimit to limit the pid or programm
 
-in user state
+   in user state
 
 ```
 cpulimit -e firefox -l 30
 
 ```
-or:
+   or:
 ```
 cpulimit -p 2783 -l 30
 
@@ -40,7 +40,7 @@ pgrep -u vivek php-cgi
 pgrep lighttpd
 
 ```
-or use the absolute path:
+   or use the absolute path:
 
 ```
 cpulimit -P /opt/firefox/firebox -l 30
@@ -49,5 +49,5 @@ cpulimit -P /opt/firefox/firebox -l 30
 
 2. one core or mulitcore:
 
-one core limit: 0-100
-four core limit: 0-400
+   one core limit: 0-100
+   four core limit: 0-400
